@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SvgmaskComponent } from './components/svgmask/svgmask.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SvgmaskComponent
   ],
   imports: [
     BrowserModule,

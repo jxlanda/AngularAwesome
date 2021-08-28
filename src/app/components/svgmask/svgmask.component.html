@@ -1,0 +1,55 @@
+<div class="test-2">
+  <svg role="none">
+    <mask id="testmask">
+      <circle fill="white" cx="100" cy="100" r="100"></circle>
+      <circle fill="black" cx="86%" cy="86%" r="18"></circle>
+    </mask>
+    <g mask="url(#testmask)">
+      <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%"
+        xlink:href="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"></image>
+      <circle fill="none" cx="100" cy="100" r="100" stroke="rgba(0,0,0,0.1)" stroke-width="2"></circle>
+    </g>
+  </svg>
+  <div class="active-dot"></div>
+</div>
+
+<div class="wrapper">
+  <div class="card">
+    <div class="card__content">
+      <div class="seen-group">
+        <svg role="none" class="avatar-wrapper">
+          <style>
+            .avatar-wrapper circle {
+              cx: calc(var(--size) / 2);
+              cy: calc(var(--size) / 2);
+              r: calc(var(--size) / 2);
+            }
+          </style>
+          <mask id="test2">
+            <circle fill="white"></circle>
+          </mask>
+          <g mask="url(#test2)">
+            <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xlink:href="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200"></image>
+            <circle fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="2"></circle>
+          </g>
+        </svg>
+        <svg role="none" class="avatar-wrapper">
+          <style>
+            .avatar-wrapper circle {
+              cx: calc(var(--size) / 2);
+              cy: calc(var(--size) / 2);
+              r: calc(var(--size) / 2);
+            }
+          </style>
+          <mask id="test3">
+            <circle fill="white"></circle>
+            <circle fill="black" cx="-30"></circle>
+          </mask>
+          <g mask="url(#test3)">
+            <image x="0" y="0" height="100%" preserveAspectRatio="xMidYMid slice" width="100%" xlink:href="https://avatarfiles.alphacoders.com/169/thumb-169164.jpg"></image>
+            <circle fill="none" stroke="rgba(0,0,0,0.1)" stroke-width="2"></circle>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
